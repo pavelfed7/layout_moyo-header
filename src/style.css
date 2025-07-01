@@ -1,19 +1,18 @@
 body {
   margin: 0;
-
 }
 
 html {
-   font-family: Roboto, sans-serif;
-   font-weight: 500;
-   font-size: 12px;
+  font-family: Roboto, Inter, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
 }
 
 .header {
   display: flex;
   align-items: center;
-  background-color: #ffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  box-shadow: 0 2px 4px white;
   justify-content: space-between;
   flex-flow: row wrap;
   padding: 0 50px;
@@ -48,17 +47,17 @@ html {
 
 .is-active,
 .nav__link:hover {
-color: #00ACDC;
+  color: #00acdc;
 }
 
 .nav__link:active::after,
 .is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
   height: 4px;
-  background-color: #00ACDC;
+  background-color: #00acdc;
   border-radius: 8px;
 }
